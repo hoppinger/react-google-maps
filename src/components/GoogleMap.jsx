@@ -423,7 +423,7 @@ const updaterMap = {
     instance.setTilt(tilt)
   },
 
-  zoom(instance, zoom) {
-    instance.setZoom(zoom)
+  zoom(instance, _zoom) {
+    instance.setZoom(_zoom.valueOf())
   },
 }
